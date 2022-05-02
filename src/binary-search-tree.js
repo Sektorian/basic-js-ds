@@ -7,11 +7,11 @@ const { Node } = require('../extensions/list-tree.js');
 * using Node from extensions
 */
 class BinarySearchTree {
-  
+  nodeRoot = null;
   root() {
     //throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
-    this.nodeRoot = null;
+    //this.nodeRoot = null;
     return this.nodeRoot;
   }
 
